@@ -1,17 +1,17 @@
 {
   "development": {
-    "username": "suriel",
-    "password": "holamundo",
-    "database": "tscrum",
-    "host": "127.0.0.1",
+    "username": "vwapp",
+    "password": "vwapp123",
+    "database": "vwapp",
+    "host": "mydbvw-instance.c4xef4gh1pvg.us-east-2.rds.amazonaws.com",
     "port": 5432,
     "dialect": "postgres"
   },
   "test": {
-    "username": "suriel",
-    "password": "holamundo",
-    "database": "tscrum",
-    "host": "127.0.0.1",
+    "username": "vwapp",
+    "password": "vwapp123",
+    "database": "vwapp",
+    "host": "mydbvw-instance.c4xef4gh1pvg.us-east-2.rds.amazonaws.com",
     "port": 5432,
     "dialect": "postgres"
   },
@@ -19,7 +19,7 @@
     "username": "root",
     "password": null,
     "database": "database_production",
-    "host": "127.0.0.1",
+    "host": "mydbvw-instance.c4xef4gh1pvg.us-east-2.rds.amazonaws.com",
     "dialect": "mysql"
   }
 }
