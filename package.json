@@ -1,0 +1,29 @@
+{
+  "name": "api-postgres-tscrum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "connect-multiparty": "^2.1.0",
+    "express": "^4.16.3",
+    "express-fileupload": "^0.4.0",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.21.0",
+    "morgan": "^1.9.0",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.37.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}
